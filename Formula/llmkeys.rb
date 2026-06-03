@@ -18,6 +18,19 @@ class Llmkeys < Formula
     bin.install "llmkeys"
   end
 
+  def caveats
+    <<~EOS
+      🍵  llmkeys is ready — enjoy!
+
+      Quick start:
+        llmkeys list                  # browse available providers
+        llmkeys key set <provider>    # stash an API key in your macOS keychain
+        llmkeys env <provider>        # print a paste-ready .env snippet
+
+      Docs & issues: #{homepage}
+    EOS
+  end
+
   test do
     assert_match "llmkeys #{version}", shell_output("#{bin}/llmkeys --version")
   end
