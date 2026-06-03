@@ -1,7 +1,6 @@
 class Llmkeys < Formula
   desc "Credential and config manager for LLM providers (keychain/Bitwarden-backed)"
   homepage "https://github.com/csthink/llmkeys"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
