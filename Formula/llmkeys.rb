@@ -5,12 +5,12 @@ class Llmkeys < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/csthink/llmkeys/releases/download/v0.1.1/llmkeys-0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "b7754135431235eb3a925f6213e636c42cb30a4c12022f5df8aff46c2ab8156d"
+      url "https://github.com/csthink/llmkeys/releases/download/v0.1.2/llmkeys-0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "26fa737dac854809530d3d16be74e891b3aa02d19112a39071b98b795f463b71"
     end
     on_intel do
-      url "https://github.com/csthink/llmkeys/releases/download/v0.1.1/llmkeys-0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "0f386ec046fde657e075cc30af2aa5e69c0d80ceeb8490702d213b8d0f87e5db"
+      url "https://github.com/csthink/llmkeys/releases/download/v0.1.2/llmkeys-0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "ea01f9c1993d722b550660e92b662d73148972509a4ae2e1c6f1ed3841c4d5d4"
     end
   end
 
