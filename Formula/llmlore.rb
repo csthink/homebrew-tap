@@ -5,21 +5,21 @@
 class Llmlore < Formula
   desc "Discover and curate LLM/agent learning repositories from a local HTML dashboard"
   homepage "https://github.com/csthink/llmlore"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/csthink/llmlore/releases/download/v0.1.0/llmlore_0.1.0_darwin_amd64.tar.gz"
-      sha256 "65c6e6d2715f0cf93d5da9fa67c92c2a78801f08d0b15428c222ba6db798dfe8"
+      url "https://github.com/csthink/llmlore/releases/download/v0.1.1/llmlore_0.1.1_darwin_amd64.tar.gz"
+      sha256 "fca9fd743d5d23264383d772efa51950c1926d7b75fa4fc48261616f75d2b142"
 
       define_method(:install) do
         bin.install "llmlore"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/csthink/llmlore/releases/download/v0.1.0/llmlore_0.1.0_darwin_arm64.tar.gz"
-      sha256 "7e945d42dc9467ec59d31fae3714b26d567ac597d139f7af89b2102d5841309c"
+      url "https://github.com/csthink/llmlore/releases/download/v0.1.1/llmlore_0.1.1_darwin_arm64.tar.gz"
+      sha256 "83fe45a5e3b554733af67d855e1141d63b99ce540bf59f6f7e84d97f324cae0b"
 
       define_method(:install) do
         bin.install "llmlore"
@@ -29,15 +29,15 @@ class Llmlore < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/csthink/llmlore/releases/download/v0.1.0/llmlore_0.1.0_linux_amd64.tar.gz"
-      sha256 "1232b54b6f873e2fbcd0ec616f2899904102815d67c6e3d1450b53e585ff8296"
+      url "https://github.com/csthink/llmlore/releases/download/v0.1.1/llmlore_0.1.1_linux_amd64.tar.gz"
+      sha256 "ed8e22bd58d9d59e221de72f662f721248c0e46a3fa72afe7a7947d8c8fb64c4"
       define_method(:install) do
         bin.install "llmlore"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/csthink/llmlore/releases/download/v0.1.0/llmlore_0.1.0_linux_arm64.tar.gz"
-      sha256 "fccf4e660eb98470fb8b3b77532d85d61c5436a596333261d846f85339b08ed2"
+      url "https://github.com/csthink/llmlore/releases/download/v0.1.1/llmlore_0.1.1_linux_arm64.tar.gz"
+      sha256 "99789bd774af54f420fe71d2d45a1158011f989ccf3a28885161fedd9731bdaa"
       define_method(:install) do
         bin.install "llmlore"
       end
