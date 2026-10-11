@@ -1,6 +1,6 @@
 cask "qingluan" do
-  version "0.1.0"
-  sha256 "0ae9d66b28bf9e00685432cab3e9e881a4ffd1dffc03affdc5c5ee12ea14db6f"
+  version "0.2.0"
+  sha256 "0a804120c2325831bf25032826a0786cc9d5cf78bedc847c37aad313d9ba40ae"
 
   url "https://github.com/csthink/mars-assistant-mac/releases/download/v#{version}/Qingluan-#{version}-arm64.dmg"
   name "青鸾"
